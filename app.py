@@ -1,7 +1,7 @@
 from companyblog import app
 from flask import Flask
 import os 
-port = int(os.environ.get('PORT', 5000))
+port = int(os.environ.get('PORT', 33507))
 
 
 if __name__ == '__main__':
